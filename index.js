@@ -43,7 +43,7 @@ function getNewFolder(){
 }
 
 function no(){
-  window.open('https://www.youtube.com/watch?v=cMTAUr3Nm6I');
+  window.open('https://www.youtube.com/watch?v=OFr74zI1LBM');
 }
 
 function yes(){
