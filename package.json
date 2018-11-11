@@ -1,0 +1,19 @@
+{
+  "name": "backwards",
+  "version": "1.0.0",
+  "description": "small app to help children recognize backwards letters and numbers",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsaacRaymond/backwards.git"
+  },
+  "author": "Isaac Raymond",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsaacRaymond/backwards/issues"
+  },
+  "homepage": "https://github.com/IsaacRaymond/backwards#readme"
+}
