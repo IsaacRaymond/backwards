@@ -43,9 +43,30 @@ function getNewFolder(){
 }
 
 function no(){
-  window.open('https://www.youtube.com/watch?v=OFr74zI1LBM');
+  randomWrongSound();
 }
 
 function yes(){
   alert('YES');
+}
+
+function randomWrongSound(){
+  var audio;
+  let rand = Math.floor(Math.random()*5);
+  if(rand===0){
+    audio = new Audio('Resources/sounds/fart.wav');
+    audio.play();
+  } else if(rand===1){
+    audio = new Audio('Resources/sounds/no1.wav');
+    audio.play();
+  } else if (rand===2){
+    audio = new Audio('Resources/sounds/no2.wav');
+    audio.play();
+  } else if (rand===3){
+    audio = new Audio('Resources/sounds/no3.wav');
+    audio.play();
+  } else if (rand===4){
+    audio = new Audio('Resources/sounds/no4.mp3');
+    audio.play();
+  }
 }
